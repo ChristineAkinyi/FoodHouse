@@ -1,22 +1,20 @@
+import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+
 const Footer = () => {
     return (
-      <footer className="bg-gray-800 text-white py-12 p-4">
-        <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold">Subscribe Our Newsletter</h2>
-          <p className="mt-2 text-gray-400">Subscribe on our newsletter to get our news</p>
-          <div className="mt-4 flex justify-center">
-            <input type="email" placeholder="Your email address..." className="px-4 py-2 rounded-l-md"/>
-            <button className="px-6 py-2 bg-primary text-white rounded-r-md">Subscribe</button>
-          </div>
-        </div>
+      <footer className="bg-black text-white py-12 p-4">
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-semibold mb-4">FoodHouse</h3>
-            <p className="text-gray-400">Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
+            <h3 className="text-xl font-semibold mb-4">FoodHouse<span className="text-amber-400 ">.</span></h3>
+            <p className="text-gray-400">Best cooks and best delivery guys all</p>
+            <p className="text-gray-400">at your service. Hot tasty food will</p>
+            <p className="text-gray-400">reach you in 60 minutes.</p>
+
             <div className="flex space-x-4 mt-4">
-              <a href="#"><img src="/twitter.png" alt="Twitter" className="w-6 h-6"/></a>
-              <a href="#"><img src="/facebook.png" alt="Facebook" className="w-6 h-6"/></a>
-              <a href="#"><img src="/linkedin.png" alt="LinkedIn" className="w-6 h-6"/></a>
+              <FaFacebook className="text-yellow-400 bg-white rounded-sm w-5 h-[20px]"/>
+              <FaTwitter className="text-yellow-400 bg-white rounded-sm w-5 h-[20px]"/>
+              <FaLinkedin className="text-yellow-400 bg-white rounded-sm w-5 h-[20px]"/>
             </div>
           </div>
           <div>
