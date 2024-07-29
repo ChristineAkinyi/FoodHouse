@@ -8,15 +8,15 @@ import chicken from "/Images/chicken.png";
             <div className="flex justify-evenly">
             <div className="mt-20">
                 
-                <h1 className="font-bold text-3xl">Enjoy Delicious</h1>
-                <h1 className="text-3xl font-bold mb-5">Food in <span className="text-amber-400 text-3xl font-bold">Healthy Life</span></h1>
+                <h1 className="font-bold text-5xl mt-[30px]">Enjoy Delicious</h1>
+                <h1 className="text-3xl font-bold mb-9 text-5xl">Food in <span className="text-amber-400 text-4xl font-bold">Healthy Life</span></h1>
                
             
-               <p>Tandoori Masala is an Indian space blend consisitng of a</p>
+               <p className="mt-[70px]">Tandoori Masala is an Indian space blend consisting of a</p>
                 <p>variety of spices. Tandoori masalais a Indian space blend</p>
                 <p className="mb-5">consisting of a variety of spices</p>
 
-                <button className="bg-amber-400 text-white font-bold py-2 px-4 rounded">ORDER NOW</button>
+                <button className="bg-amber-400 text-white font-bold py-2 px-4 rounded mt-[30px]">ORDER NOW</button>
                {/* </div> */}
                 
             </div>

@@ -2,10 +2,11 @@ import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     return (
-      <footer className="bg-black text-white py-12 p-4">
+      <section>
+      <footer className="bg-black text-white py-12 p-4 text-base flex ">
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div>
+        {/* <div className="flex"> */}
+          <div className="ml-[80px]">
             <h3 className="text-xl font-semibold mb-4">FoodHouse<span className="text-amber-400 ">.</span></h3>
             <p className="text-gray-400">Best cooks and best delivery guys all</p>
             <p className="text-gray-400">at your service. Hot tasty food will</p>
@@ -17,6 +18,8 @@ const Footer = () => {
               <FaLinkedin className="text-yellow-400 bg-white rounded-sm w-5 h-[20px]"/>
             </div>
           </div>
+
+         <div className="flex ml-[250px] gap-[80px] text-sm">
           <div>
             <h3 className="text-xl font-semibold mb-4">Company</h3>
             <ul className="text-gray-400 space-y-2">
@@ -27,6 +30,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-primary">Features</a></li>
             </ul>
           </div>
+
           <div>
             <h3 className="text-xl font-semibold mb-4">Fudo</h3>
             <ul className="text-gray-400 space-y-2">
@@ -48,7 +52,20 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+
+        {/* </div> */}
+       
       </footer>
+
+      <div className="bg-amber-300 flex text-white p-[20px] mt-[-30px] gap-[40px] font-semibold">
+        <p className="ml-[600px] text-xs">Copyright 2021 Besnik All Rights Reserved</p>
+        <p className="text-xs"> Terms</p>
+        <p className="text-xs">Privacy</p>
+        <p className="text-xs">Security</p>
+        </div>
+      </section>
+
+      
     );
   };
   export default Footer;
