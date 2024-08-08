@@ -1,7 +1,5 @@
-import Image from "next/image"
 
-// import homedish from "../Images/homedish.png";
-import chicken from "/Images/chicken.png";
+
  export const Homepage= () => {
     return(
         <section>
@@ -17,7 +15,7 @@ import chicken from "/Images/chicken.png";
                 <p className="mb-5 text-xl">consisting of a variety of spices</p>
 
                 <button className="bg-amber-400 text-xl text-white font-bold py-2 px-10 py-4 w-50 rounded-lg mt-[30px]">ORDER NOW</button>
-               {/* </div> */}
+            
                 
             </div>
 

@@ -11,7 +11,6 @@ const BestOffer = () => {
             <p className='text-gray-500 text-center font-medium mb-20'>partner.Straight out of the oven to your doorstep.</p>
            
 
-           {/* <div className=''> */}
             <div className='flex justify-center justify-evenly'>
               <div className='flex'>
                 <div>

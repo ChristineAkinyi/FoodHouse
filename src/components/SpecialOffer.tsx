@@ -18,19 +18,14 @@ export const SpecialOffer = () => {
              <button className="bg-amber-400 text-white text-2xl py-4 px-8 rounded-lg mt-5">See All Menu</button>
                 </div>
 
-                {/* <button className="bg-amber-400 text-white text-2xl py-4 px-8 rounded-lg mt-5 */}
-
-                
-                {/* <div> */}
 
                     <div className="relative w-[500px] h-[500px]">
 
                     <Image src={dishoffer} alt="Dish offer" layout="fill" objectFit="cover" className="z-0"/>
 
                         <button className="absolute top-8 bg-white p-2 rounded shadow-lg z-10 flex items-center">
-                            {/* <div> */}
                             <Image src={cristio} alt="" className="w-12"/>
-                            {/* </div> */}
+                            
 
                             <div className="ml-2 text-left">
                                 <h3 className="font-bold">Cristio Maria</h3>

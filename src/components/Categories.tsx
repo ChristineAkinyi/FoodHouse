@@ -18,7 +18,7 @@ export const PopularFoods = () => {
                     <h2 className="font-extrabold text-3xl text-center mb-[10px] mt-[10px]">Fruit Dish</h2>
                     <p className="mb-[10px] text-xl">Dinko Food</p>
                     <p className="mb-[10px]"> &#11088; &#11088; &#11088; &#11088;</p>
-                    <button className="bg-amber-400 text-white font-bold py-2 px-10 rounded-full"><span className="text-xs">Add to Cart $696</span></button>
+                    <button className="bg-amber-400 text-white font-bold py-2 px-10 rounded-full"><span className="text-xl">Add to Cart $696</span></button>
                     </div>
                    
                 </div>
@@ -30,7 +30,7 @@ export const PopularFoods = () => {
                     <h2 className="font-extrabold text-3xl text-center mb-[10px] mt-[10px]">Fruit Dish</h2>
                     <p className="mb-[10px] text-xl">Dinko Food</p>
                     <p className="mb-[10px]"> &#11088; &#11088; &#11088; &#11088;</p>
-                    <button className="bg-amber-400 text-white font-bold py-2 px-10 rounded-full"><span className="text-xs">Add to Cart $696</span></button>
+                    <button className="bg-amber-400 text-white font-bold py-2 px-10 rounded-full"><span className="text-xl">Add to Cart $696</span></button>
                     </div>                  
 
                 </div>
@@ -42,7 +42,7 @@ export const PopularFoods = () => {
                     <h2 className="font-extrabold text-3xl text-center mb-[10px] mt-[10px]">Sea fish dish</h2>
                     <p className="mb-[10px] text-xl">Dinko Food</p>
                     <p className="mb-[10px]"> &#11088; &#11088; &#11088; &#11088;</p>
-                    <button className="bg-amber-400 text-white font-bold py-2 px-10 rounded-full"><span className="text-xs">Add to Cart $696</span></button>
+                    <button className="bg-amber-400 text-white font-bold py-2 px-10 rounded-full"><span className="text-xl">Add to Cart $696</span></button>
 
                     </div>
                    
@@ -56,7 +56,7 @@ export const PopularFoods = () => {
                 <h2 className="font-extrabold text-3xl mb-[10px] mt-[10px]">Pizza</h2>
                 <p className="mb-[10px] text-xl">Dinko Food</p>
                 <p className="mb-[10px]"> &#11088; &#11088; &#11088; &#11088;</p>
-                <button className="bg-amber-400 text-white font-bold py-2 px-10 rounded-full"><span className="text-3xl">Add to Cart $696</span></button>
+                <button className="bg-amber-400 text-white font-bold py-2 px-10 rounded-full"><span className="text-xl">Add to Cart $696</span></button>
             </div>
             </div>                    
             </div>

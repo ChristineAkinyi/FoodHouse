@@ -24,16 +24,16 @@ const DownloadAppSection = () => {
          
 
           <div className='flex gap-[10px] mt-10 '>
-            <button className='flex bg-black py-4 px-8 text-white rounded-lg text-left'>
+            <button className='flex bg-black py-4 px-4 text-white rounded-lg text-left h-20'>
               <Image src={appleicon} alt='' className='w-10'/>
 
               <div>
-                <p className='text-xl'>Download on the</p>
-                <h2 className='text-2xl'>App Store</h2>
+                <p className='text-md'>Download on the</p>
+                <h2 className='text-xl'>App Store</h2>
               </div>
             </button>
             
-            <button className='flex bg-black text-2xl py-4 px-8 rounded-lg text-white text-left'>
+            <button className='flex bg-black text-xl py-4 px-4 rounded-lg text-white text-left h-20'>
               <Image src={playstoreicon} alt='' className='w-10'/>
 
               <div>
@@ -59,9 +59,7 @@ const DownloadAppSection = () => {
          
           <div className="mt-4 ml-[100px]">
 
-            {/* <div> */}
-            <button className="bg-amber-400 text-white p-[15px] rounded-lg flex">Subscribe</button>
-            {/* </div> */}           
+            <button className="bg-amber-400 text-white p-[15px] rounded-lg flex">Subscribe</button>          
            
           </div>
         </div>
